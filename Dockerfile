@@ -1,4 +1,4 @@
 FROM openjdk:21
-ADD ./api.jar api.jar
+ADD ./api-test.jar api-test.jar
 
-ENTRYPOINT ["java", "-jar", "api.jar"]
+ENTRYPOINT ["java", "-jar", "api-test.jar"]

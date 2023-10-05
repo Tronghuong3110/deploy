@@ -53,7 +53,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>api</finalName>
+		<finalName>api-test</finalName>
 	</build>
 
 </project>
